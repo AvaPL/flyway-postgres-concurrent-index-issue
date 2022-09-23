@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS foo_bar
+(
+    foo VARCHAR NOT NULL,
+    bar VARCHAR NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS foo_index ON foo_bar(foo);
